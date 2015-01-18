@@ -7,6 +7,9 @@ gem 'newrelic_rpm'
 gem 'httparty'
 
 gem 'sidekiq'
+gem 'sidetiq'
+gem 'unicorn'
+gem 'sinatra', :require => nil
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
