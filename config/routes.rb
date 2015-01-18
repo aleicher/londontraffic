@@ -8,7 +8,7 @@ Londontraffic::Application.routes.draw do
        resources :disruptions, only: [:index, :show]
      end
    end
-   mount Sidekiq::Web => '/sidekiq'
+   #mount Sidekiq::Web => '/sidekiq'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
