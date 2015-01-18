@@ -9,8 +9,6 @@ production:
        retry_interval: 1
        timeout: 15
        refresh_interval: 10
-       safe: true
-       skip_version_check: true
   
 
 development:
