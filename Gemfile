@@ -4,7 +4,7 @@ source 'https://rubygems.org'
 gem 'rails', '4.0.3'
 gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'newrelic_rpm'
-
+gem 'httparty'
 
 
 # Use SCSS for stylesheets
