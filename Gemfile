@@ -6,6 +6,7 @@ gem 'mongoid', git: 'https://github.com/mongoid/mongoid.git'
 gem 'newrelic_rpm'
 gem 'httparty'
 
+gem 'sidekiq'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
