@@ -1,6 +1,7 @@
 class Disruption
   include Mongoid::Document
   include Mongoid::Timestamps
+  include Mongoid::Attributes::Dynamic
 
   field :status, type: String
   field :severity, type: String
@@ -11,7 +12,7 @@ class Disruption
   field :endTime, type: DateTime
   field :location, type: String
   field :comments, type: String
-  field :currentUpdates, type: String
+  field :currentUpdate, type: String
   field :remarkTime, type: DateTime
   field :lastModTime, type: DateTime
 
