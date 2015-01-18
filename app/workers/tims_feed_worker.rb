@@ -1,5 +1,13 @@
 class TimsFeedWorker
   include Sidekiq::Worker
+  include Sidetiq::Schedulable
+
+  recurrence do
+    # define interval here
+    # see https://github.com/seejohnrun/ice_cube for syntax
+    # or https://github.com/tobiassvn/sidetiq
+    minutely
+  end
 
   def perform
     data = TflApi::Tims.feed
