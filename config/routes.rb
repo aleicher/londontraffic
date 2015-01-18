@@ -1,3 +1,6 @@
+require 'sidekiq/web'
+require 'sidetiq/web'
+
 Londontraffic::Application.routes.draw do
    # make sure our api calls are namespaced and versioned
    namespace :api, defaults: { format: 'json' } do
@@ -5,6 +8,8 @@ Londontraffic::Application.routes.draw do
        resources :disruptions, only: [:index, :show]
      end
    end
+   mount Sidekiq::Web => '/sidekiq'
+
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
