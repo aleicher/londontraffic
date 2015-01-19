@@ -13,6 +13,7 @@ gem 'sinatra', :require => nil
 
 gem 'bower-rails'
 gem 'haml'
+gem 'angular-rails-templates'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
