@@ -12,7 +12,7 @@ gem 'unicorn'
 gem 'sinatra', :require => nil
 
 gem 'bower-rails'
-gem 'slim'
+gem 'haml'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'
@@ -42,6 +42,8 @@ end
 
 group :production do
   gem 'rails_12factor'
+  gem 'rails_stdout_logging'
+  gem 'rails_serve_static_assets'
 end
 
 # Use ActiveModel has_secure_password
