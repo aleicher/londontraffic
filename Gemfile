@@ -12,6 +12,7 @@ gem 'unicorn'
 gem 'sinatra', :require => nil
 
 gem 'bower-rails'
+gem 'slim'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.0'

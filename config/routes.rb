@@ -9,6 +9,7 @@ Londontraffic::Application.routes.draw do
      end
    end
    mount Sidekiq::Web => '/sidekiq'
+   root 'home#index'
 
   
   # The priority is based upon order of creation: first created -> highest priority.
