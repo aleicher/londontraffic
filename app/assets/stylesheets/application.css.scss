@@ -13,4 +13,7 @@
  */
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap-sprockets";
 @import "bootstrap-sass-official/assets/stylesheets/_bootstrap";
+@import "leaflet/dist/leaflet";
+@import "leaflet.markercluster/dist/MarkerCluster.Default";
+@import "leaflet.markercluster/dist/MarkerCluster";
 

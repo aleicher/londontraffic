@@ -1,3 +1,6 @@
 asset 'angular'
 asset 'angular-route'
 asset 'bootstrap-sass-official'
+asset 'leaflet'
+asset 'angular-leaflet-directive'
+asset 'leaflet.markercluster'

@@ -3,6 +3,9 @@
   "dependencies": {
     "angular": "latest",
     "angular-route": "latest",
-    "bootstrap-sass-official": "latest"
+    "bootstrap-sass-official": "latest",
+    "leaflet": "latest",
+    "angular-leaflet-directive": "latest",
+    "leaflet.markercluster": "latest"
   }
 }

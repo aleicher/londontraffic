@@ -15,4 +15,7 @@
 //= require angular/angular
 //= require angular-rails-templates
 //= require angular-route/angular-route
+//= require leaflet/dist/leaflet
+//= require angular-leaflet-directive/dist/angular-leaflet-directive
+//= require leaflet.markercluster/dist/leaflet.markercluster
 //= require_tree .
