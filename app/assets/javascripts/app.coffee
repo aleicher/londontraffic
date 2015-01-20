@@ -1,1 +1,0 @@
-trafficApp = angular.module('trafficApp',[])
