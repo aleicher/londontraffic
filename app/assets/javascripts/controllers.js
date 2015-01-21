@@ -45,6 +45,7 @@ angular.module('trafficApp.controllers', [])
           }
         }
       });
+
       $scope.markers = [];
 
       DisruptionsSvc.getDisruptions().then(
@@ -56,6 +57,7 @@ angular.module('trafficApp.controllers', [])
         }
       );
 
+
       var addDisruptionToMap = function(disruptionData) {
         coords = disruptionData.CauseArea.DisplayPoint.Point.coordinatesLL.split(',');
         $scope.markers.push({
@@ -65,6 +67,5 @@ angular.module('trafficApp.controllers', [])
           layer: 'realworld'
         });
       };
-
     }
   ]);
